@@ -12,6 +12,7 @@ dependencies:
   - geopandas >= 0.6.1
   - jupyterlab >= 3.0.9
   - pip
+  - git
   - pip:
     - PyQt5 >= 5.13.1
     - git+https://github.com/andy22b/fault-profile-tool/#subdirectory=src/fault-profile-tool
