@@ -10,7 +10,7 @@ The code should run on any of Windows, OS X or Linux, through Anaconda3.
 Anaconda3 can be downloaded from https://www.anaconda.com/products/individual
 
 # Installation
-1. Download the example repository (not the main code repo) from GitHub, using the "Download Zip" option from the "Code" dropdown.
+1. Download the example repository (not the main code repo) from GitHub, using the "Download Zip" option from the "Code" dropdown. Unzip it.
 
 ![image](https://user-images.githubusercontent.com/16937322/116341055-543d4780-a834-11eb-810d-c494b7ac3f2c.png)
 
@@ -23,5 +23,11 @@ Anaconda3 can be downloaded from https://www.anaconda.com/products/individual
 
 ![image](https://user-images.githubusercontent.com/16937322/116341782-a0d55280-a835-11eb-97a0-ba50b6f11689.png)
 
+5. A window like the one shown below will appear. Click the folder icon to browse and select the environment.yml file in the folder that you downloaded and unzipped in step 1. 
 
+![image](https://user-images.githubusercontent.com/16937322/116342182-4d173900-a836-11eb-8908-d2ef5fcb8ea2.png)
 
+6. Click "Import" and wait for the relevant modules to install. NOTE that this may take several minutes... Be patient.
+7. Once an Anaconda 
+
+# Updates to code
