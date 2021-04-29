@@ -57,7 +57,9 @@ Now the software is installed, you launch it as follow.
  
 
 # Mason River (Hope Fault) example
+The example contains a GeoTIFF file (topography for the region of interest) and three shapefiles. One shapefile contains fault traces as lines, and the other two shapefiles contain points (swath profile centres for Example 1) and profile lines (Example 2). All the shapefiles and the geotiff are in NZTM projection (EPSG:2193). It is very important that all these files have the same projection and that the projection is in metres rather than degrees.
 
+Open 
 
 
 
