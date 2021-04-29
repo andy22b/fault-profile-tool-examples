@@ -28,6 +28,25 @@ Anaconda3 can be downloaded from https://www.anaconda.com/products/individual
 ![image](https://user-images.githubusercontent.com/16937322/116342182-4d173900-a836-11eb-8908-d2ef5fcb8ea2.png)
 
 6. Click "Import" and wait for the relevant modules to install. NOTE that this may take several minutes... Be patient.
-7. Once an Anaconda 
+7. Once installation has finished, a new `fault-profile-tool` environment should appear in the list, with a play button (triangle) next to it:
+
+![image](https://user-images.githubusercontent.com/16937322/116504787-460f2a00-a90d-11eb-8c96-6d2ba99d3dd5.png)
+
+# Launching the software
+Now the software is installed, you launch it as follow.
+1. If Anaconda Navigator is not open, open it and navigate to the environments tab (steps 2 and 3 of installation).
+2. Click the play button (triangle) next to the `fault-profile-tool` environment and select `Open with Jupyter Notebook`.
+
+![image](https://user-images.githubusercontent.com/16937322/116505000-d64d6f00-a90d-11eb-9bec-12c1c8ed6675.png)
+
+
+
+
 
 # Updates to code
+Updates to the code will unfortunately be necessary; I hope that they will become less frequent with time. To update, open a terminal using the fault-profile-tool environment in Anaconda navigator, as shown below.
+
+![image](https://user-images.githubusercontent.com/16937322/116504551-a3ef4200-a90c-11eb-8dc8-a2aed9d56c5a.png)
+
+In the terminal that opens, paste `git+https://github.com/andy22b/fault-profile-tool/#subdirectory=src/fault-profile-tool` and hit `Enter`. This should install the latest version of the tool. Once this is done, close that terminal and open a new notebook.
+
