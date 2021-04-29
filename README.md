@@ -39,6 +39,24 @@ Now the software is installed, you launch it as follow.
 
 ![image](https://user-images.githubusercontent.com/16937322/116505000-d64d6f00-a90d-11eb-9bec-12c1c8ed6675.png)
 
+3. Jupyter notebook will open in your web browser. In it, navigate to the directory where your data are stored (in this case, the Mason River example).
+
+![image](https://user-images.githubusercontent.com/16937322/116505551-532d1880-a90f-11eb-9b20-0910b81486c9.png)
+
+**NOTES:** 
+1. For general information on running jupyter notebooks, visit https://jupyter-notebook.readthedocs.io/en/stable/
+2. To use Jupyter on a non-standard or network drive (e.g. the J: drive at GNS), some additional steps are required.
+ 
+ a. Instead of step 2 above, open a terminal.
+ 
+ ![image](https://user-images.githubusercontent.com/16937322/116504551-a3ef4200-a90c-11eb-8dc8-a2aed9d56c5a.png)
+ 
+ b. In the terminal, type or paste `jupyter notebook --notebook-dir J:\_Nat_Hzds_Risks`, replacing `J:\_Nat_Hzds_Risks` with the location of somewhere you actually want to open the notebook. Hit `Enter`
+ 
+**To close Jupyter notebook when you're done**, close the tabs in your web browser and close the terminal that opened at the same time as Jupyter notebook.
+ 
+
+# Mason River (Hope Fault) example
 
 
 
@@ -48,5 +66,5 @@ Updates to the code will unfortunately be necessary; I hope that they will becom
 
 ![image](https://user-images.githubusercontent.com/16937322/116504551-a3ef4200-a90c-11eb-8dc8-a2aed9d56c5a.png)
 
-In the terminal that opens, paste `git+https://github.com/andy22b/fault-profile-tool/#subdirectory=src/fault-profile-tool` and hit `Enter`. This should install the latest version of the tool. Once this is done, close that terminal and open a new notebook.
+In the terminal that opens, paste `git+https://github.com/andy22b/fault-profile-tool/#subdirectory=src/fault-profile-tool` and hit `Enter`. This should install the latest version of the tool. Once this is done, close that terminal and close and reopen jupyter notebook (step 2 of *Launching the software*).
 
