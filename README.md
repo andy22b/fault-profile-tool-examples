@@ -68,5 +68,5 @@ Updates to the code will unfortunately be necessary; I hope that they will becom
 
 ![image](https://user-images.githubusercontent.com/16937322/116504551-a3ef4200-a90c-11eb-8dc8-a2aed9d56c5a.png)
 
-In the terminal that opens, paste `git+https://github.com/andy22b/fault-profile-tool/#subdirectory=src/fault-profile-tool` and hit `Enter`. This should install the latest version of the tool. Once this is done, close that terminal and close and reopen jupyter notebook (step 2 of *Launching the software*).
+In the terminal that opens, paste `pip install git+https://github.com/andy22b/fault-profile-tool/#subdirectory=src/fault-profile-tool` and hit `Enter`. This should install the latest version of the tool. Once this is done, close that terminal and close and reopen jupyter notebook (step 2 of *Launching the software*).
 
