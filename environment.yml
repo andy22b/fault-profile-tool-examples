@@ -11,10 +11,10 @@ dependencies:
   - rasterio >= 1.1.0
   - geopandas >= 0.6.1
   - jupyterlab >= 3.0.9
+  - shapely == 1.8.5
   - pip
   - git
   - pip:
-    - PyQt5 >= 5.13.1
     - git+https://github.com/andy22b/fault-profile-tool/#subdirectory=src/fault-profile-tool
     - git+https://github.com/andy22b/fault-profile-tool/#subdirectory=src/icp_error
 
